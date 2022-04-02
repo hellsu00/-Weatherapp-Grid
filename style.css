@@ -1,0 +1,33 @@
+@import url('https://fonts.google.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body, button, input, textarea {
+    font-family: 'Poppins',sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+:root {
+    --dark-blue: #1D1D1D;
+    --light-gray: #BFBFC1;
+}
+
+.iphone-container {
+    width: 350px;
+    height: 700px;
+    border-radius: 45px;
+    border: 20px solid #111;
+    background: var(--dark-blue);
+}
