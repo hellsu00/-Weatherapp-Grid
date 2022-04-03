@@ -30,4 +30,23 @@ body {
     border-radius: 45px;
     border: 20px solid #111;
     background: var(--dark-blue);
+    position: relative;
+}
+
+.iphone-container .notch {
+    width: 180px;
+    height: 25px;
+    background: #111;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+}
+
+.iphone-container .iphone-menu {
+    width: 90px;
+    background: var(--light-gray);
+    height: 3px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 45px);
 }
